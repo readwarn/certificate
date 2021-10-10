@@ -12,10 +12,8 @@ body {
 }
 
 .cert-body {
-    width: 55%;
+    width: 65%;
     margin: auto;
-    display: flex;
-    flex-direction: column;
     background: #ffffff;
 }
 
@@ -52,7 +50,7 @@ section.top {
 .achievement {
     position: absolute;
     top: 60%;
-    left: 73%;
+    left: calc(100% - 180px);
 }
 
 .achievement h3 {
@@ -159,23 +157,215 @@ section.top {
     z-index: 3;
 }
 
-@media screen and (max-width:720px) {
+
+@media screen and (max-width:1150px){
     .cert-body {
-        width: 100%;
+        width: 75%;
+        margin:auto auto;
     }
+
     .content {
-        width: 95%;
+        width: 90%;
         margin: auto;
     }
+
+    .brand {
+        position: absolute;
+        left: 70px;
+        top: 35px;
+        font-size: 0.8rem;
+    }
+
+    .brand img{
+        width:70px;
+        height:50px;
+    }
+
+    .brand p{
+        font-size:0.9rem;
+    }
+
+    .achievement {
+        position: absolute;
+        top: 60%;
+        left: calc(100% - 170px);
+    }
+
+    .achievement h3 {
+        font-size: 1.4rem;
+    }
+    
+    .achievement p {
+        font-size: 0.85rem;
+    }
+
+    .disclaimer {
+        width:85%;
+        margin:auto;
+    }
+
+    .owner h2 {
+        font-weight: 800;
+        font-size: 2.3rem;
+        color: #5C5C5F;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .cert-body {
+        width: 92%;
+        margin:auto auto;
+    }
+
+    .content {
+        width: 90%;
+        margin: auto;
+    }
+
     .brand {
         position: absolute;
         left: 30px;
         top: 35px;
         font-size: 0.8rem;
     }
+
+    .brand img{
+        width:70px;
+        height:50px;
+    }
+
+    .brand p{
+        font-size:0.9rem;
+    }
+
     .achievement {
         position: absolute;
         top: 60%;
-        left: 63%;
+        left: calc(100% - 170px);
+    }
+
+    .achievement h3 {
+        font-size: 1.3rem;
+    }
+    
+    .achievement p {
+        font-size: 0.75rem;
+    }
+
+    .disclaimer {
+        width:85%;
+        margin:auto;
+    }
+
+    .owner h2 {
+        font-weight: 800;
+        font-size: 2.3rem;
+        color: #5C5C5F;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .cert-body {
+        width: 97%;
+        margin:auto auto;
+    }
+
+    .content {
+        width: 90%;
+        margin: auto;
+    }
+
+    .brand {
+        position: absolute;
+        left: 30px;
+        top: 35px;
+        font-size: 0.8rem;
+    }
+
+    .brand img{
+        width:70px;
+        height:50px;
+    }
+
+    .brand p{
+        font-size:0.9rem;
+    }
+
+    .achievement {
+        position: absolute;
+        top: 60%;
+        left: calc(100% - 170px);
+    }
+
+    .achievement h3 {
+        font-size: 1.2rem;
+    }
+    
+    .achievement p {
+        font-size: 0.7rem;
+    }
+
+    .disclaimer {
+        width:85%;
+        margin:auto;
+    }
+
+    .owner h2 {
+        font-weight: 800;
+        font-size: 2.3rem;
+        color: #5C5C5F;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .cert-body {
+        width: 98%;
+        margin:auto;
+    }
+
+    .content {
+        width: 95%;
+        margin: auto;
+    }
+
+    .brand {
+        position: absolute;
+        left: 30px;
+        top: 35px;
+        font-size: 0.8rem;
+    }
+
+    .brand img{
+        width:60px;
+        height:40px;
+    }
+
+    .brand p{
+        font-size:0.85rem;
+    }
+
+    .achievement {
+        position: absolute;
+        top: 60%;
+        left: calc(100% - 170px);
+    }
+
+    .achievement h3 {
+        font-size: 1.15rem;
+    }
+    
+    .achievement p {
+        font-size: 0.65rem;
+    }
+
+    .disclaimer {
+        width:85%;
+        margin:auto;
+    }
+
+    .owner h2 {
+        font-weight: 800;
+        font-size: 2.2rem;
+        color: #5C5C5F;
     }
 }
