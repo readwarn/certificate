@@ -330,14 +330,14 @@ section.top {
 
     .brand {
         position: absolute;
-        left: 30px;
-        top: 35px;
+        left: 15px;
+        top: 20px;
         font-size: 0.8rem;
     }
 
     .brand img{
-        width:60px;
-        height:40px;
+        width:50px;
+        height:35px;
     }
 
     .brand p{
@@ -347,7 +347,7 @@ section.top {
     .achievement {
         position: absolute;
         top: 60%;
-        left: calc(100% - 170px);
+        left: calc(100% - 140px);
     }
 
     .achievement h3 {
@@ -367,5 +367,27 @@ section.top {
         font-weight: 800;
         font-size: 2.2rem;
         color: #5C5C5F;
+    }
+}
+
+@media screen and (max-width:450px) {
+    section.top {
+        height: 140px;
+    }
+
+    .disclaimer {
+        width:85%;
+        margin:auto;
+        font-size:0.8rem;
+    }
+
+    .owner{
+        margin: 30px 0;
+    }
+
+    .owner h2 {
+        font-weight: 800;
+        font-size: 1.6rem;
+        color: #5C5C5;
     }
 }
