@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #E5E5E5;
+}
+
+.cert-body {
+    width: 55%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+}
+
+section.top {
+    width: 100%;
+    margin: auto;
+    height: 165px;
+    background-image: url('./assets/trapezium.png'), url('./assets/r-angle.png');
+    background-position: top left, bottom right;
+    background-size: 100% 100%, 80% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.brand {
+    position: absolute;
+    left: 80px;
+    top: 35px;
+}
+
+.brand img {
+    display: block;
+    margin: auto;
+}
+
+.brand p {
+    font-weight: 500;
+    font-size: 16.6484px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.achievement {
+    position: absolute;
+    top: 60%;
+    left: 73%;
+}
+
+.achievement h3 {
+    font-weight: 800;
+    color: #5C5C5F;
+    line-height: 35px;
+    font-size: 1.4rem;
+}
+
+.achievement p {
+    text-align: right;
+    font-size: 0.8rem;
+    color: #5C5C5F;
+}
+
+.declaration {
+    color: #5C5C5F;
+    font-size: 0.7rem;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 14px;
+}
+
+.content {
+    width: 65%;
+    margin: auto;
+}
+
+.owner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.owner h2 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #5C5C5F;
+}
+
+.owner img {
+    height: max-content;
+    margin-right: 5px;
+}
+
+.disclaimer {
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 165%;
+    text-align: center;
+}
+
+.signatory {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.signatory .link {
+    height: 45px;
+}
+
+.user-a img {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.user-a .name {
+    margin-top: 10px;
+    color: #5C5C5F;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.user-a .role {
+    margin-top: 8px;
+    color: #5C5C5F;
+    font-weight: 300;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.bottom {
+    height: 65px;
+    position: relative;
+}
+
+.bottom img {
+    position: absolute;
+    width: 100%;
+}
+
+.bottom .yellow-bg {
+    height: 100%;
+    top: -25px;
+}
+
+.bottom .black-bg {
+    height: 100%;
+    z-index: 3;
+}
+
+@media screen and (max-width:720px) {
+    .cert-body {
+        width: 100%;
+    }
+    .content {
+        width: 95%;
+        margin: auto;
+    }
+    .brand {
+        position: absolute;
+        left: 30px;
+        top: 35px;
+        font-size: 0.8rem;
+    }
+    .achievement {
+        position: absolute;
+        top: 60%;
+        left: 63%;
+    }
+}
