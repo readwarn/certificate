@@ -2,8 +2,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     text-decoration: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -88,13 +88,13 @@ section.top {
 
 .owner h2 {
     font-weight: 800;
-    font-size: 2.5rem;
+    font-size: 3.2rem;
     color: #5C5C5F;
 }
 
 .owner img {
-    height: max-content;
-    margin-right: 5px;
+    height: 33px;
+    width: 38px;
 }
 
 .disclaimer {
@@ -115,13 +115,13 @@ section.top {
     height: 45px;
 }
 
-.user-a img {
+.executive img {
     width: 70%;
     display: block;
     margin: auto;
 }
 
-.user-a .name {
+.executive .name {
     margin-top: 10px;
     color: #5C5C5F;
     font-size: 0.7rem;
@@ -129,7 +129,7 @@ section.top {
     text-align: center;
 }
 
-.user-a .role {
+.executive .role {
     margin-top: 8px;
     color: #5C5C5F;
     font-weight: 300;
@@ -157,113 +157,94 @@ section.top {
     z-index: 3;
 }
 
-@media screen and (max-width:1350px){
+@media screen and (max-width:1350px) {
     .cert-body {
         width: 65%;
-        margin:auto auto;
+        margin: auto auto;
     }
-
-    section.top{
-        height:165px;
+    section.top {
+        height: 165px;
     }
-
     .content {
-        width: 70%;
+        width: 65%;
         margin: auto;
     }
-
     .brand {
         position: absolute;
         left: 100px;
         top: 35px;
         font-size: 0.8rem;
     }
-
-    .brand img{
-        width:70px;
-        height:50px;
+    .brand img {
+        width: 75px;
+        height: 55px;
     }
-
-    .brand p{
-        font-size:0.9rem;
+    .brand p {
+        font-size: 1.1rem;
     }
-
     .achievement {
         position: absolute;
         top: 60%;
         left: calc(100% - 180px);
     }
-
     .achievement h3 {
         font-size: 1.4rem;
     }
-    
     .achievement p {
         font-size: 0.85rem;
     }
-
     .disclaimer {
-        width:85%;
-        margin:auto;
+        font-size: 0.75rem;
+        width: 85%;
+        margin: auto;
     }
-
     .owner h2 {
         font-weight: 800;
-        font-size: 2.3rem;
+        font-size: 2.9rem;
         color: #5C5C5F;
     }
 }
 
-
-@media screen and (max-width:1150px){
+@media screen and (max-width:1150px) {
     .cert-body {
         width: 75%;
-        margin:auto auto;
+        margin: auto auto;
     }
-
     .content {
-        width: 90%;
+        width: 82%;
         margin: auto;
     }
-
     .brand {
         position: absolute;
         left: 70px;
         top: 35px;
         font-size: 0.8rem;
     }
-
-    .brand img{
-        width:70px;
-        height:50px;
+    .brand img {
+        width: 70px;
+        height: 50px;
     }
-
-    .brand p{
-        font-size:0.9rem;
+    .brand p {
+        font-size: 0.9rem;
     }
-
     .achievement {
         position: absolute;
         top: 60%;
-        left: calc(100% - 170px);
+        left: calc(100% - 180px);
     }
-
     .achievement h3 {
         font-size: 1.4rem;
     }
-    
     .achievement p {
         font-size: 0.85rem;
     }
-
     .disclaimer {
-        width:85%;
-        margin:auto;
+        width: 80%;
+        margin: auto;
     }
-
     .owner h2 {
         font-weight: 800;
-        font-size: 2.3rem;
+        font-size: 2.75rem;
         color: #5C5C5F;
     }
 }
@@ -271,52 +252,43 @@ section.top {
 @media screen and (max-width:900px) {
     .cert-body {
         width: 92%;
-        margin:auto auto;
+        margin: auto auto;
     }
-
     .content {
-        width: 90%;
+        width: 83%;
         margin: auto;
     }
-
     .brand {
         position: absolute;
         left: 30px;
         top: 35px;
         font-size: 0.8rem;
     }
-
-    .brand img{
-        width:70px;
-        height:50px;
+    .brand img {
+        width: 70px;
+        height: 50px;
     }
-
-    .brand p{
-        font-size:0.9rem;
+    .brand p {
+        font-size: 0.9rem;
     }
-
     .achievement {
         position: absolute;
         top: 60%;
         left: calc(100% - 170px);
     }
-
     .achievement h3 {
         font-size: 1.3rem;
     }
-    
     .achievement p {
         font-size: 0.75rem;
     }
-
     .disclaimer {
-        width:85%;
-        margin:auto;
+        width: 85%;
+        margin: auto;
     }
-
     .owner h2 {
         font-weight: 800;
-        font-size: 2.3rem;
+        font-size: 3rem;
         color: #5C5C5F;
     }
 }
@@ -324,49 +296,40 @@ section.top {
 @media screen and (max-width:720px) {
     .cert-body {
         width: 97%;
-        margin:auto auto;
+        margin: auto auto;
     }
-
     .content {
         width: 90%;
         margin: auto;
     }
-
     .brand {
         position: absolute;
         left: 30px;
         top: 35px;
         font-size: 0.8rem;
     }
-
-    .brand img{
-        width:70px;
-        height:50px;
+    .brand img {
+        width: 70px;
+        height: 50px;
     }
-
-    .brand p{
-        font-size:0.9rem;
+    .brand p {
+        font-size: 0.9rem;
     }
-
     .achievement {
         position: absolute;
         top: 60%;
         left: calc(100% - 170px);
     }
-
     .achievement h3 {
         font-size: 1.2rem;
     }
-    
     .achievement p {
         font-size: 0.7rem;
     }
-
     .disclaimer {
-        width:85%;
-        margin:auto;
+        width: 85%;
+        margin: auto;
     }
-
     .owner h2 {
         font-weight: 800;
         font-size: 2.3rem;
@@ -377,49 +340,40 @@ section.top {
 @media screen and (max-width:600px) {
     .cert-body {
         width: 98%;
-        margin:auto;
+        margin: auto;
     }
-
     .content {
         width: 95%;
         margin: auto;
     }
-
     .brand {
         position: absolute;
-        left: 15px;
-        top: 20px;
+        left: 30px;
+        top: 35px;
         font-size: 0.8rem;
     }
-
-    .brand img{
-        width:50px;
-        height:35px;
+    .brand img {
+        width: 50px;
+        height: 35px;
     }
-
-    .brand p{
-        font-size:0.85rem;
+    .brand p {
+        font-size: 0.85rem;
     }
-
     .achievement {
         position: absolute;
         top: 60%;
         left: calc(100% - 140px);
     }
-
     .achievement h3 {
         font-size: 1.15rem;
     }
-    
     .achievement p {
         font-size: 0.65rem;
     }
-
     .disclaimer {
-        width:85%;
-        margin:auto;
+        width: 85%;
+        margin: auto;
     }
-
     .owner h2 {
         font-weight: 800;
         font-size: 2.2rem;
@@ -431,20 +385,17 @@ section.top {
     section.top {
         height: 140px;
     }
-
     .disclaimer {
-        width:85%;
-        margin:auto;
-        font-size:0.8rem;
+        width: 85%;
+        margin: auto;
+        font-size: 0.8rem;
     }
-
-    .owner{
+    .owner {
         margin: 30px 0;
     }
-
     .owner h2 {
         font-weight: 800;
         font-size: 1.6rem;
-        color: #5C5C5;
+        color: #5C5C5C;
     }
 }
